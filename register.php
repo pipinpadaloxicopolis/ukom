@@ -32,60 +32,79 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form" action="login.php" method="post">
+				<form class="login100-form validate-form" action="reg.php" method="post">
 					<span class="login100-form-title p-b-43">
-						Silahkan Masuk
+						Silahkan Daftar
 					</span>
 					
 					
-					<div class="wrap-input100 validate-input" > <!--data-validate = "Valid email is required: ex@abc.xyz"-->
-						<input class="input100" type="text" name="login-username">
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="register-name">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Nama Lengkap</span>
+					</div>
+										
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="register-username">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Nama Pengguna</span>
 					</div>
 					
-					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="login-password">
+						<input class="input100" type="password" name="register-password1">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Kata Sandi</span>
+					</div>
+					
+										<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password" name="register-password2">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Konfirmasi Kata Sandi</span>
+					</div>
+					
+									<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="text" name="register-telp">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Nomor Telepon</span>
 					</div>
 
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
 						<div class="contact100-form-checkbox">
 							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-							<label class="label-checkbox100" for="ckb1">
+						<!--	<label class="label-checkbox100" for="ckb1">
 								Ingat akun saya
-							</label>
+							</label>-->
 						</div>
 
 						<div>
-							<a href="#" class="txt1">
+							<!--<a href="#" class="txt1">
 								Lupa Password?
-							</a>
+							</a>-->
 						</div>
 					</div>
 			
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Masuk
-						</button>
-					</div>
-					
-					<div class="text-center p-t-5 p-b-2">
-						<span class="txt2">
-							Belum punya Akun? Silahkan Daftar 
-						</span>
-					</div>
-					
 					<div class="text-center p-t-5 p-b-20">
 						<span class="txt2">
 						
-						<a class="login100-form-btn" href="register.php">
+						<button class="login100-form-btn">
 							Daftar akun
+						</button>
+					</div>
+
+					<div class="text-center p-t-5 p-b-2">
+					</div>
+					<div class="container-login100-form-btn">
+						<a class="login100-form-btn" href="index.php">
+							Kembali
 						</a>
 					</div>
+					
+					<!--<div class="text-center p-t-5 p-b-2">
+						<span class="txt2">
+							Belum punya Akun? Silahkan Daftar 
+						</span>
+					</div>-->
+					
 					
 					<div class="text-center p-t-46 p-b-20">
 						<span class="txt2">
